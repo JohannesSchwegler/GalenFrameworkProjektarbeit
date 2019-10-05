@@ -1,0 +1,26 @@
+.body{
+  -fx-background-color:#6638B6 ;
+}
+
+#button__choose{
+	
+	
+	
+}
+
+#submit{
+	 -fx-background-color:#fff;
+	 -fx-text-fill:#000;
+	
+}
+
+#button__choose, #button__destination{
+	-fx-border-color:none;
+	 -fx-background-color:#05C3DE;
+	  -fx-text-fill:#ffffff;
+}
+
+.text{
+	  -fx-text-fill:#ffffff;
+	
+}

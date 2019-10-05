@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "Gridlayout-Test Ergebnisse",
+    "startedAt" : 1570275396902,
+    "endedAt" : 1570275396902,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 23,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 23
+    },
+    "testId" : "1-gridlayout-test-ergebnisse",
+    "failed" : false,
+    "duration" : 0
+  } ]
+}

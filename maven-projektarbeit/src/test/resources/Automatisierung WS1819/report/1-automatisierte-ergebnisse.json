@@ -1,0 +1,229 @@
+{
+  "testId" : "1-automatisierte-ergebnisse",
+  "name" : "Automatisierte Ergebnisse",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check Gridlayout",
+      "status" : "error",
+      "time" : 1570126129992,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Main section",
+        "place" : {
+          "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+          "lineNumber" : 14
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "width 1904 px",
+            "errors" : [ "\"header\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "nav",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 21
+            },
+            "name" : "below header",
+            "errors" : [ "\"header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 22
+            },
+            "name" : "inside body 0px left",
+            "highlight" : [ "nav", "body" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 23
+            },
+            "name" : "width ~ 32% of viewport/width",
+            "errors" : [ "\"nav\" width is 99% [1888px] which is not in range of 30 to 34% [571 to 647px]" ],
+            "highlight" : [ "nav" ]
+          } ]
+        }, {
+          "name" : "article",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 26
+            },
+            "name" : "below nav",
+            "highlight" : [ "article", "nav" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 27
+            },
+            "name" : "inside body 0px left",
+            "errors" : [ "\"article\" is not completely inside. The offset is 16px." ],
+            "highlight" : [ "article", "body" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 28
+            },
+            "name" : "width ~ 65% of viewport/width",
+            "errors" : [ "\"article\" width is 99% [1888px] which is not in range of 63 to 67% [1199 to 1275px]" ],
+            "highlight" : [ "article" ]
+          } ]
+        }, {
+          "name" : "aside",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "below nav",
+            "highlight" : [ "aside", "nav" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "inside body 0px right",
+            "errors" : [ "\"aside\" is not completely inside. The offset is 16px." ],
+            "highlight" : [ "aside", "body" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "width ~ 32% of viewport/width",
+            "errors" : [ "\"aside\" width is 99% [1888px] which is not in range of 30 to 34% [571 to 647px]" ],
+            "highlight" : [ "aside" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 37
+            },
+            "name" : "width 1904 px",
+            "errors" : [ "\"footer\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "img",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "width 450px",
+            "errors" : [ "\"img\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 41
+            },
+            "name" : "height 450px",
+            "errors" : [ "\"img\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "imgRight",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 44
+            },
+            "name" : "inside Container 0px right",
+            "errors" : [ "\"imgRight\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "li-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 48
+            },
+            "name" : "aligned horizontally all li-2",
+            "errors" : [ "Cannot find locator for \"li-1\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 48
+            },
+            "name" : "aligned horizontally all li-3",
+            "errors" : [ "Cannot find locator for \"li-1\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 48
+            },
+            "name" : "aligned horizontally all li-4",
+            "errors" : [ "Cannot find locator for \"li-1\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 48
+            },
+            "name" : "aligned horizontally all li-5",
+            "errors" : [ "Cannot find locator for \"li-1\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Automatisierung WS1819\\Layouttest.gspec",
+              "lineNumber" : 48
+            },
+            "name" : "aligned horizontally all li-6",
+            "errors" : [ "Cannot find locator for \"li-1\" in page spec" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "nav" : {
+          "area" : [ 8, 16, 1888, 18 ]
+        },
+        "aside" : {
+          "area" : [ 8, 50, 1888, 0 ]
+        },
+        "body" : {
+          "area" : [ 8, 16, 1888, 18 ]
+        },
+        "article" : {
+          "area" : [ 8, 50, 1888, 0 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

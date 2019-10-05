@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "Flexbox-Test Ergebnisse",
+    "startedAt" : 1570275409195,
+    "endedAt" : 1570275409195,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 23,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 23
+    },
+    "testId" : "1-flexbox-test-ergebnisse",
+    "duration" : 0,
+    "failed" : false
+  } ]
+}

@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "Automatisierte Ergebnisse",
+    "startedAt" : 1570126129991,
+    "endedAt" : 1570126129991,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 3,
+      "errors" : 16,
+      "warnings" : 0,
+      "total" : 19
+    },
+    "testId" : "1-automatisierte-ergebnisse",
+    "failed" : true,
+    "duration" : 0
+  } ]
+}

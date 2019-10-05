@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "Ergebnisse der Layouttests zum Sommersemester 2019",
+    "startedAt" : 1570275383723,
+    "endedAt" : 1570275383723,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 16,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 16
+    },
+    "testId" : "1-ergebnisse-der-layouttests-zum-sommersemester-2019",
+    "duration" : 0,
+    "failed" : false
+  } ]
+}

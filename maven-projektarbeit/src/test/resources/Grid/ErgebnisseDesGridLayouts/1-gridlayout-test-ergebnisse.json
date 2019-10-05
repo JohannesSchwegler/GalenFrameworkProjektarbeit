@@ -1,0 +1,278 @@
+{
+  "testId" : "1-gridlayout-test-ergebnisse",
+  "name" : "Gridlayout-Test Ergebnisse",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check Gridlayout",
+      "status" : "info",
+      "time" : 1570275396902,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Main section",
+        "place" : {
+          "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+          "lineNumber" : 14
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "width 1887 px",
+            "highlight" : [ "header" ]
+          } ]
+        }, {
+          "name" : "nav",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 21
+            },
+            "name" : "below header",
+            "highlight" : [ "nav", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 22
+            },
+            "name" : "inside body 3px left",
+            "highlight" : [ "nav", "body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 23
+            },
+            "name" : "width ~ 32% of viewport/width",
+            "highlight" : [ "nav" ]
+          } ]
+        }, {
+          "name" : "article",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 26
+            },
+            "name" : "below nav",
+            "highlight" : [ "article", "nav" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 27
+            },
+            "name" : "inside body 1px left",
+            "highlight" : [ "article", "body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 28
+            },
+            "name" : "width ~ 65% of viewport/width",
+            "highlight" : [ "article" ]
+          } ]
+        }, {
+          "name" : "aside",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "below nav",
+            "highlight" : [ "aside", "nav" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "inside body 0px right",
+            "highlight" : [ "aside", "body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "width ~ 32% of viewport/width",
+            "highlight" : [ "aside" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 37
+            },
+            "name" : "width 1877 px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "below header",
+            "highlight" : [ "footer", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 39
+            },
+            "name" : "below nav",
+            "highlight" : [ "footer", "nav" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "below article",
+            "highlight" : [ "footer", "article" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 41
+            },
+            "name" : "below aside",
+            "highlight" : [ "footer", "aside" ]
+          } ]
+        }, {
+          "name" : "img",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 44
+            },
+            "name" : "width 450px",
+            "highlight" : [ "img" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 45
+            },
+            "name" : "height 450px",
+            "highlight" : [ "img" ]
+          } ]
+        }, {
+          "name" : "imgRight",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 48
+            },
+            "name" : "inside Container ~ 0px right",
+            "highlight" : [ "imgRight", "Container" ]
+          } ]
+        }, {
+          "name" : "li-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 52
+            },
+            "name" : "aligned horizontally all li-2",
+            "highlight" : [ "li-1", "li-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 52
+            },
+            "name" : "aligned horizontally all li-3",
+            "highlight" : [ "li-1", "li-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 52
+            },
+            "name" : "aligned horizontally all li-4",
+            "highlight" : [ "li-1", "li-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 52
+            },
+            "name" : "aligned horizontally all li-5",
+            "highlight" : [ "li-1", "li-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\test\\resources\\Grid\\layouttest.gspec",
+              "lineNumber" : 52
+            },
+            "name" : "aligned horizontally all li-6",
+            "highlight" : [ "li-1", "li-6" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "nav" : {
+          "area" : [ 3, 133, 604, 38 ]
+        },
+        "img" : {
+          "area" : [ 512, 490, 450, 450 ]
+        },
+        "imgRight" : {
+          "area" : [ 512, 490, 450, 450 ]
+        },
+        "footer" : {
+          "area" : [ 5, 1079, 1877, 105 ]
+        },
+        "body" : {
+          "area" : [ 0, 0, 1887, 1184 ]
+        },
+        "article" : {
+          "area" : [ 1, 175, 1283, 902 ]
+        },
+        "li-2" : {
+          "area" : [ 94, 134, 119, 16 ]
+        },
+        "li-3" : {
+          "area" : [ 213, 134, 87, 16 ]
+        },
+        "Container" : {
+          "area" : [ 2, 448, 961, 568 ]
+        },
+        "li-1" : {
+          "area" : [ 4, 134, 90, 16 ]
+        },
+        "aside" : {
+          "area" : [ 1283, 173, 604, 272 ]
+        },
+        "li-6" : {
+          "area" : [ 401, 134, 117, 16 ]
+        },
+        "li-4" : {
+          "area" : [ 299, 134, 70, 16 ]
+        },
+        "li-5" : {
+          "area" : [ 369, 134, 31, 16 ]
+        },
+        "header" : {
+          "area" : [ 0, 20, 1887, 91 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
